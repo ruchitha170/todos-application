@@ -1,0 +1,31 @@
+.create-task-text{
+    font-size: 35px;
+}
+.user-input{
+    border-radius: 10px;
+    
+}
+.my-task-text {
+    font-size: 35px;
+}
+
+.item-details-container{
+    background-color:#e6f6ff;
+    width: 80vw; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.check-box-container{
+    padding: 14px;
+}
+.check-box-el{
+    height: 20px;
+    width: 20px;
+}
+.checked{
+    text-decoration: line-through;
+}
+.item-details-container{
+    border-left: 5px solid #096f92;
+}
