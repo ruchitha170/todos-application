@@ -5,7 +5,11 @@ let requiredEl = document.getElementById("requiredEl");
 let saveBtnEl = document.getElementById("saveBtn");
 
 let todoList=JSON.parse(localStorage.getItem("todoList"));
-
+if (todoList===null){
+    todoList=[];
+}else{
+    todoList=todoList;
+}
 
 function onDeleteTodo(id){
     todoList = todoList.filter((item)=>item.id!==id);
